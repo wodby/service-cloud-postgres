@@ -3,11 +3,11 @@ type: db
 title: Cloud PostgreSQL
 external: true
 options:
-- version: 9.6
-- version: 10
-- version: 11
-- version: 12
 - version: 13
+- version: 12
+- version: 11
+- version: 10
+- version: 9.6
 labels:
 - postgres
 database:
