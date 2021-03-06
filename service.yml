@@ -14,8 +14,8 @@ database:
   type: postgres
   db:
     name: '{{wodby_app_name}}_{{wodby_app_instance_name}}'
-    charset: 'utf8mb4'
-    collation: 'utf8mb4_unicode_ci'    
+    charset: 'utf8'
+    collation: 'en_US.UTF-8'    
   user:
     name: '{{wodby_app_name}}_{{wodby_app_instance_name}}'
     password: '{{password}}'
