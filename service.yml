@@ -13,11 +13,11 @@ labels:
 database:
   type: postgres
   db:
-    name: '{{wodby_app_name}}_{{wodby_app_instance_name}}'
+    name: '{{app.name}}_{{instance.name}}'
     charset: 'UTF8'
     collation: 'en_US.UTF-8'    
   user:
-    name: '{{wodby_app_name}}_{{wodby_app_instance_name}}'
+    name: '{{app.name}}_{{instance.name}}'
     password: '{{password}}'
 tokens:
 - name: password
