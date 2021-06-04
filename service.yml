@@ -1,4 +1,5 @@
 name: cloud-postgres
+icon: postgres
 type: db
 title: Cloud PostgreSQL
 external: true
