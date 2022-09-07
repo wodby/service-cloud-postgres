@@ -1,4 +1,4 @@
-name: postgres-cloud
+name: cloud-postgres
 icon: postgres
 type: db
 title: Cloud PostgreSQL
