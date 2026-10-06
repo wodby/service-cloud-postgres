@@ -14,7 +14,7 @@ labels:
 - postgres
 database:
   type: postgres
-  kind: mariadb
+  kind: postgres
   db:
     name: '{{app.name}}_{{instance.name}}'
     charset: 'UTF8'
