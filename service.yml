@@ -2,6 +2,7 @@ name: cloud-postgres
 icon: postgres
 type: db
 title: Cloud PostgreSQL
+guidance: GUIDANCE.md
 external: true
 options:
 - version: '13'
